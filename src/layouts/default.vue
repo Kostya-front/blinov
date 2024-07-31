@@ -1,0 +1,29 @@
+<template>
+  <div :class="$style.default">
+    <Header/>
+    <Aside/>
+    <router-view/>
+  </div>
+</template>
+
+<script>
+import Aside from "../widgets/Aside.vue";
+import Header from "@/widgets/header.vue";
+export default {
+  name: 'default',
+  components: {
+    Header,
+    Aside
+  }
+};
+</script>
+
+<style lang="scss" module>
+.default {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: 100vh;
+  grid-template-areas: 'header header' 'aside main';
+  grid-template-rows: max-content auto;
+}
+</style>
