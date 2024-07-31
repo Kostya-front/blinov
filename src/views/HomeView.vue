@@ -1,5 +1,10 @@
-<script setup lang="ts">
-import Lessons from "@/widgets/lessons.vue";
+<script>
+import Lessons from "../widgets/lessons.vue";
+export default {
+  components: {
+    Lessons
+  }
+}
 </script>
 
 <template>
