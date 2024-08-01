@@ -2,7 +2,10 @@
   <div :class="$style.default">
     <Header/>
     <Aside/>
-    <router-view/>
+
+    <main :class="$style.main">
+      <router-view/>
+    </main>
   </div>
 </template>
 
@@ -19,6 +22,10 @@ export default {
 </script>
 
 <style lang="scss" module>
+.main {
+  grid-area: main;
+  padding: 20px;
+}
 .default {
   display: grid;
   grid-template-columns: 1fr 4fr;

@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import DefaultLayout from '/layouts/default.vue'
+import DefaultLayout from '../layouts/default.vue'
+import WikiView from '../views/WikiView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -9,7 +10,7 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: DefaultLayout,
-      children: [{path:'/', name: 'main', component: HomeView}]
+      children: [{path:'/', name: 'main', component: HomeView}, {path: '/wiki', name: 'wiki', component: WikiView}]
     },
     {
       path: '/about',

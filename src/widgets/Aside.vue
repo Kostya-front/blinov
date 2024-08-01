@@ -29,6 +29,9 @@ export default {
   text-decoration: none;
   display: flex;
   padding: 10px;
-  background: #36455c;
+  transition: 1s;
+  &:hover {
+    background: rgba(50, 131, 168, 0.43);
+  }
 }
 </style>
