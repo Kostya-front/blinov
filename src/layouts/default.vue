@@ -32,5 +32,9 @@ export default {
   height: 100vh;
   grid-template-areas: 'header header' 'aside main';
   grid-template-rows: max-content auto;
+  @media screen and (max-width: 767px) {
+    grid-template-columns: 1fr;
+    grid-template-areas: 'header' 'main' 'aside';
+  }
 }
 </style>

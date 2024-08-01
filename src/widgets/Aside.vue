@@ -1,28 +1,45 @@
 <template>
-  <ul :class="$style.Aside">
-    <li>
-      <router-link :class="$style.link" to="/">Занятия</router-link>
+  <ul class="Aside" :class="{Aside__visible: menuStore.isVisible}">
+    <li @click="menuStore.toggleMenu">
+      <router-link class="link" to="/">Занятия</router-link>
     </li>
-    <li>
-      <router-link :class="$style.link" to="/wiki">Wiki</router-link>
+    <li @click="menuStore.toggleMenu">
+      <router-link class="link" to="/wiki">Wiki</router-link>
     </li>
   </ul>
 </template>
 
-<script>
-export default {
-  name: 'Aside'
-};
+<script setup lang="ts">
+import { useMenuStore } from "@/features/menu/store";
+import { computed } from "vue";
+
+const menuStore = useMenuStore()
+
+
 </script>
 
-<style lang="scss" module>
+<style lang="scss">
 .Aside {
   background: var(--main-background);
+  z-index: 2;
   grid-area: aside;
   padding: 5px 0px;
   color: #fff;
   display: flex;
   flex-direction: column;
+  transition: 1s;
+  @media screen and (max-width: 767px) {
+    transform: translateX(-100%);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__visible {
+    transform: translateX(0);
+  }
 }
 .link {
   color: inherit;

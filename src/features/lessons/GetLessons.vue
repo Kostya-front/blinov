@@ -25,7 +25,7 @@
         <td>{{ item.date }}</td>
         <td>{{ item.duration }}</td>
         <td>{{ item.topic }}</td>
-        <td><a :href="item.link" target="_blank">Ссылка на занятие</a></td>
+        <td><a :href="item.link" target="_blank">Посмотреть запись</a></td>
       </tr>
       </tbody>
     </v-table>
