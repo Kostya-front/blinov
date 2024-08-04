@@ -17,7 +17,7 @@
         </th>
       </tr>
       </thead>
-      <tbody>
+      <tbody :class="$style.tbody">
       <tr
           v-for="item in lessons"
           :key="item.link"
@@ -47,5 +47,9 @@ export default {
 <style lang="scss" module>
 .GetLessons {
   //
+}
+
+.tbody {
+  font-size: 12px;
 }
 </style>

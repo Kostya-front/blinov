@@ -25,6 +25,9 @@ export default {
 .main {
   grid-area: main;
   padding: 20px;
+  @media screen and (max-width: 768px) {
+    padding: 5px;
+  }
 }
 .default {
   display: grid;

@@ -22,3 +22,9 @@ img {
 h1 {
   color: var(--main-background);
 }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    text-align: center;
+  }
+}
