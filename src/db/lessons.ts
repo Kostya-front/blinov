@@ -5,4 +5,5 @@ export const lessons = [
   {id: 4, date: '4 августа (воскресенье)', duration: 120, topic: 'Победа на задачей про useReducer', link: 'https://disk.yandex.ru/i/YoW0SJLAK12cwA'},
   {id: 5, date: '5 августа (понедельник)', duration: 60, topic: 'Изучение сервисов', link: 'https://disk.yandex.ru/d/2nXXeX42U2sLdw'},
   {id: 6, date: '6 августа (вторник)', duration: 60, topic: 'Разбор видимости var,const, let. Знакомство с redux', link: 'https://disk.yandex.ru/d/1I5WsmO-QcN4aQ'},
+  {id: 6, date: '9 августа (пятница)', duration: 60, topic: 'Разбор Redux Toolkit', link: 'https://disk.yandex.ru/d/h1febMbOjIm3QQ'},
 ]
