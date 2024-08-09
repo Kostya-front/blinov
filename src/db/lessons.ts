@@ -7,3 +7,5 @@ export const lessons = [
   {id: 6, date: '6 августа (вторник)', duration: 60, topic: 'Разбор видимости var,const, let. Знакомство с redux', link: 'https://disk.yandex.ru/d/1I5WsmO-QcN4aQ'},
   {id: 6, date: '9 августа (пятница)', duration: 60, topic: 'Разбор Redux Toolkit', link: 'https://disk.yandex.ru/d/h1febMbOjIm3QQ'},
 ]
+
+// https://www.figma.com/design/aNxp3G306blFzHb8Cf7oib/Untitled?node-id=2-2&t=oL8j3rsRC5Fk9ARZ-0
