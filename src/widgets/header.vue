@@ -1,6 +1,6 @@
 <template>
   <header :class="$style.header">
-    <a target="_blank" href="https://meet.google.com/epa-jikv-gwi">
+    <a target="_blank" href="https://meet.google.com/kcm-uskc-esy">
       <img src="https://dynamic.design.com/preview/logodraft/bb05106d-e831-4746-bcdc-5bb87b72250b/image/large.png" alt="logo_link"/>
     </a>
 
