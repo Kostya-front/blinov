@@ -19,7 +19,7 @@
       </thead>
       <tbody :class="$style.tbody">
       <tr
-          v-for="item in lessons"
+          v-for="item in lessonStore.paginatedLessons"
           :key="item.link"
       >
         <td>{{ item.date }}</td>
@@ -31,17 +31,11 @@
     </v-table>
   </template>
 
-<script>
+<script setup lang="ts">
 import {lessons} from '../../db/lessons'
+import { useLessonStore } from './store';
 
-export default {
-  name: 'GetLessons',
-  data() {
-    return {
-      lessons
-    }
-  }
-};
+const lessonStore = useLessonStore()
 </script>
 
 <style lang="scss" module>
