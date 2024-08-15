@@ -10,5 +10,6 @@ export const lessons = [
   {id: 9, date: '11 августа (воскресенье)', duration: 150, topic: 'Решение задачи по Redux Toolkit в тренажере', link: 'https://disk.yandex.ru/i/T4YbvopVVJq_-Q'},
   {id: 10, date: '13 августа (вторник)', duration: 60, topic: 'Знакомство с thunks', link: 'https://disk.yandex.ru/d/m4TEDbk8kdOxCw'},
   {id: 11, date: '14 августа (среда)', duration: 60, topic: 'Более подбробное изучение thunks', link: 'https://disk.yandex.ru/i/yQy_4FWGs1p0Qg'},
+  {id: 12, date: '15 августа (четверг)', duration: 60, topic: 'Решение задачи по thunks', link: 'https://disk.yandex.ru/i/0u0adG6GxKuJww'},
 ]
 // https://www.figma.com/design/aNxp3G306blFzHb8Cf7oib/Untitled?node-id=2-2&t=oL8j3rsRC5Fk9ARZ-0
