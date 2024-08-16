@@ -16,7 +16,7 @@ export const useLessonStore = defineStore('lessons', () => {
     })
 
     const paginatedBtns = computed(() => {
-        return Math.floor(lessonsArray.value.length / 5)
+        return Math.ceil(lessonsArray.value.length / 5)
     })
     return {
         lessonsArray,
