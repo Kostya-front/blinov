@@ -12,5 +12,6 @@ export const lessons = [
   {id: 11, date: '14 августа (среда)', duration: 60, topic: 'Более подбробное изучение thunks', link: 'https://disk.yandex.ru/i/yQy_4FWGs1p0Qg'},
   {id: 12, date: '15 августа (четверг)', duration: 60, topic: 'Решение задачи по thunks', link: 'https://disk.yandex.ru/i/0u0adG6GxKuJww'},
   {id: 13, date: '16 августа (пятница)', duration: 60, topic: 'Знакомства с роутингом', link: 'https://disk.yandex.ru/d/oRaYTl0K9XvH8w'},
+  {id: 14, date: '17 августа (суббота)', duration: 180, topic: 'Создание приложения "Админка"', link: 'https://disk.yandex.ru/i/ZkpY9XFBuuEPXQ'},
 ]
 // https://www.figma.com/design/aNxp3G306blFzHb8Cf7oib/Untitled?node-id=2-2&t=oL8j3rsRC5Fk9ARZ-0
