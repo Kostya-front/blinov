@@ -16,7 +16,12 @@ export const useLessonStore = defineStore('lessons', () => {
             return
         }
 
-        const foundTopics = topics.filter(topic => topic.description.includes(topicValue.value))
+        const foundTopics = topics.filter(topic => {
+            const lowerTitle = topic.title?.toLowerCase()
+            const lowerDescription = topic.description?.toLowerCase()
+
+            return lowerTitle.includes(topicValue.value?.toLowerCase()) || lowerDescription.includes(topicValue.value?.toLowerCase())
+        })
 
         topicsArray.value = foundTopics
     }
