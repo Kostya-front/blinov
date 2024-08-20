@@ -1,6 +1,6 @@
 <template>
   <div :class="$style.TopicList">
-    <v-expansion-panels v-for="topic of topics" :key="topic.id">
+    <v-expansion-panels v-for="topic of lessonStore.topicsArray" :key="topic.id">
       <v-expansion-panel
           :title="topic.title"
       >
@@ -12,17 +12,12 @@
   </div>
 </template>
 
-<script>
-import { topics } from "../db/topics";
-export default {
-  name: 'TopicList',
-  data() {
-    return {
-      topics
+<script setup lang="ts">
+import { useLessonStore } from '@/features/lessons/store';
 
-    }
-  }
-};
+const lessonStore = useLessonStore()
+
+ 
 </script>
 
 <style lang="scss" module>
