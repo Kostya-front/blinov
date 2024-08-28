@@ -1,6 +1,6 @@
 <template>
   <header :class="$style.header">
-    <a target="_blank" href="https://telemost.yandex.ru/j/60420694984220">
+    <a target="_blank" href="https://telemost.yandex.ru/j/22487660749524">
       <img src="https://dynamic.design.com/preview/logodraft/bb05106d-e831-4746-bcdc-5bb87b72250b/image/large.png" alt="logo_link"/>
     </a>
 
