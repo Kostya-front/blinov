@@ -19,6 +19,8 @@ export const lessons = [
   {id: 18, date: '23 августа (пятница)', duration: 70, topic: 'Изучение динамических параметров', link: 'https://disk.yandex.ru/d/qHylDgD-a7hu0A'},
   {id: 19, date: '24 августа (суббота)', duration: 150, topic: 'Изучение query-параметров', link: 'https://disk.yandex.ru/i/MOtaORIpFqging'},
   {id: 20, date: '26 августа (понедельник)', duration: 60, topic: 'Изучение useLocation', link: 'https://disk.yandex.ru/i/tuWMINMD_yNTAg'},
+  {id: 21, date: '28 августа (среда)', duration: 60, topic: 'Изучение localStorage', link: 'https://disk.yandex.ru/i/gAZ3p3xPfG2-6w'},
+  {id: 22, date: '29 августа (четверг)', duration: 60, topic: 'Решение задачи на localStorage', link: 'https://disk.yandex.ru/d/DOEg1geZBo6ebw'},
 
 ]
 // https://www.figma.com/design/aNxp3G306blFzHb8Cf7oib/Untitled?node-id=2-2&t=oL8j3rsRC5Fk9ARZ-0
