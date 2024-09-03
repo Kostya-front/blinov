@@ -25,7 +25,7 @@ export const lessons = [
   {id: 24, date: '31 августа (суббота)', duration: 210, topic: 'Изучение access/refresh токенов', link: 'https://disk.yandex.ru/i/Tegoks1QUQjyLw'},
   {id: 25, date: '01 сентября (воскресенье)', duration: 120, topic: 'Работа над проектом', link: 'https://disk.yandex.ru/i/e3xY8cXYST6G4g'},
   {id: 26, date: '02 сентября (понедельник)', duration: 60, topic: 'Работа над проектом', link: 'https://disk.yandex.ru/i/0lmjDu_D1CM3jA'},
-  {id: 27, date: '03 сентября (вторник)', duration: 60, topic: 'Работа над проектом', link: 'https://disk.yandex.ru/i/0lmjDывавыаu_D1CM3jA'},
+  {id: 27, date: '03 сентября (вторник)', duration: 60, topic: 'Работа над проектом', link: 'https://disk.yandex.ru/i/0lmjDqwrtgtru_D1CM3jA'},
 ]
 // https://www.figma.com/design/aNxp3G306blFzHb8Cf7oib/Untitled?node-id=2-2&t=oL8j3rsRC5Fk9ARZ-0
 
