@@ -28,4 +28,3 @@ export const lessons = [
   {id: 27, date: '03 сентября (вторник)', duration: 60, topic: 'Работа над проектом', link: 'https://disk.yandex.ru/i/0lmjDqwrtgtru_D1CM3jA'},
 ]
 // https://www.figma.com/design/aNxp3G306blFzHb8Cf7oib/Untitled?node-id=2-2&t=oL8j3rsRC5Fk9ARZ-0
- 
